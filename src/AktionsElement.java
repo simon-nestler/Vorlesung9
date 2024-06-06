@@ -13,4 +13,9 @@ public class AktionsElement extends Element {
             System.out.println("Das AktionsElement wird gezeichnet.");
         }
     }
+
+    public void klick() {
+        System.out.println("Das AktionsElement wird geklickt.");
+    }
+
 }

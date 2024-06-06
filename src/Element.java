@@ -1,4 +1,4 @@
-public class Element extends Object {
+public abstract class Element extends Object {
 
     private boolean sichtbar;
     protected int breite;

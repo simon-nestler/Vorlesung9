@@ -1,4 +1,4 @@
-public class AktionsElement extends Element {
+public abstract class AktionsElement extends Element {
 
     public AktionsElement() {
         super();

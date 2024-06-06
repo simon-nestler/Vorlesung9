@@ -7,6 +7,8 @@ public class App {
         b = null;
         b = (Button) e;
 
+        Element elem = new AktionsElement();
+
         System.out.println(b.getAbmessungen());
 
     }

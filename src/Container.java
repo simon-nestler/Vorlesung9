@@ -1,3 +1,3 @@
-public class Container extends Element {
+public abstract class Container extends Element {
 
 }

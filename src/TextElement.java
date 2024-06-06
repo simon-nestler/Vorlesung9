@@ -1,3 +1,3 @@
-public class TextElement extends Element {
+public abstract class TextElement extends Element {
 
 }

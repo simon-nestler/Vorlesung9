@@ -20,4 +20,10 @@ public class Button extends AktionsElement {
             System.out.println("Der Button wird gezeichnet.");
         }
     }
+
+    public void zeichnen(int strichstaerke) {
+        if (getSichtbar()) {
+            System.out.println("Der Button wird mit Strichstärke " + strichstaerke + " gezeichnet.");
+        }
+    }
 }

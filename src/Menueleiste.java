@@ -1,3 +1,3 @@
-public class Menueleiste {
+public class Menueleiste extends Element {
 
 }

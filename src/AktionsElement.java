@@ -1,3 +1,3 @@
-public class AktionsElement {
+public class AktionsElement extends Element {
 
 }

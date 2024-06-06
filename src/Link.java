@@ -1,3 +1,3 @@
-public class Link {
+public class Link extends TextElement {
 
 }

@@ -1,3 +1,3 @@
-public class Ueberschrift {
+public class Ueberschrift extends TextElement {
 
 }

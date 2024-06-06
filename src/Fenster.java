@@ -1,3 +1,3 @@
-public class Fenster {
+public class Fenster extends Container {
 
 }

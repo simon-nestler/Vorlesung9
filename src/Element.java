@@ -1,3 +1,3 @@
-public class Element {
+public class Element extends Object {
 
 }

@@ -1,3 +1,3 @@
-public class Eingabefeld {
+public class Eingabefeld extends AktionsElement {
 
 }

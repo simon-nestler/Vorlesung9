@@ -4,6 +4,7 @@ public class Button extends AktionsElement {
 
     public Button() {
         super();
+        hoehe = 30;
         System.out.println("Ein Button-Objekt wird erzeugt.");
     }
 
@@ -11,5 +12,12 @@ public class Button extends AktionsElement {
         this();
         System.out.println("Ein Button-Objekt mit Text wird erzeugt.");
         this.text = text;
+    }
+
+    @Override
+    public void zeichnen() {
+        if (getSichtbar()) {
+            System.out.println("Der Button wird gezeichnet.");
+        }
     }
 }

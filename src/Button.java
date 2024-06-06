@@ -21,6 +21,7 @@ public class Button extends AktionsElement {
         }
     }
 
+    @Override
     public void hover() {
         System.out.println("Der Button wird gehovert.");
     }

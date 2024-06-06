@@ -18,4 +18,6 @@ public abstract class AktionsElement extends Element {
         System.out.println("Das AktionsElement wird geklickt.");
     }
 
+    public abstract void hover();
+
 }

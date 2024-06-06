@@ -1,6 +1,6 @@
 public abstract class Element extends Object {
 
-    private boolean sichtbar;
+    private final boolean sichtbar;
     protected int breite;
     protected int hoehe;
 

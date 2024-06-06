@@ -1,14 +1,13 @@
 public class App {
     public static void main(String[] args) throws Exception {
 
-        AktionsElement e = new Button();
+        Button b = new Button();
+        AktionsElement e = b;
 
-        if (e instanceof Button) {
-            Button b = (Button) e;
-            b.hover();
-        } else {
-            System.out.println("Das Element ist kein Button.");
-        }
+        b = null;
+        b = (Button) e;
+
+        System.out.println(b.getAbmessungen());
 
     }
 }
